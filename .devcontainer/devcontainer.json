@@ -1,0 +1,7 @@
+#
+FROM eu.gcr.io/gitpod-core-dev/build/gitpod-k3s:${VERSION:-latest}
+{
+  ...
+  "build": { "dockerfile": "Dockerfile" },
+  ...
+}
